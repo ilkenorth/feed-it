@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6a50j7vo00si"]
+
+[ext_resource type="Script" uid="uid://cwnwsm1b25bhy" path="res://board.gd" id="1_3ng4l"]
+[ext_resource type="PackedScene" uid="uid://buh1pylekm873" path="res://piece.tscn" id="2_otxgx"]
+
+[node name="Board" type="Node2D"]
+position = Vector2(350, 35)
+script = ExtResource("1_3ng4l")
+piece_scene = ExtResource("2_otxgx")
